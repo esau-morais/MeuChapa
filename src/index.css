@@ -1,13 +1,101 @@
-body {
+/* Global styles */
+
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Poppins', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body, html, #root {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  scroll-behavior: smooth;
 }
+
+.container-md {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-link {
+  margin: 0 1em
+}
+
+/* Placeholder */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1DA8D5;
+  opacity: 0.6;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1DA8D5;
+  opacity: 0.6;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1DA8D5;
+  opacity: 0.6;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1DA8D5;
+  opacity: 0.6;
+}
+/* Placeholder */
+
+/* Radion Button */
+#foo:checked::before,
+input[type="radio"] {
+    position:absolute;
+    clip: rect(0,0,0,0);
+    clip: rect(0 0 0 0);
+}
+
+#foo:checked,
+input[type="radio"] + label::before {
+    content: url('/images/Radio Button.png');
+}
+
+input[type="radio"]:checked + label::before {
+    content: url('/images/Radio Button Checked.png');
+}
+/* Radion Button */
+
+/* FadeIn Effect */
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* FadeIn Effect */
+
+/* Global styles */

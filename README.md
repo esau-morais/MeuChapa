@@ -1,68 +1,81 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="https://meuchapa.netlify.app" rel="noopener">
+ <img src="./public/images/Section 1.png" alt="Meu Chapa Logo"></a>
+</p>
+<h3 align="center">Meu Chapa</h3>
 
-## Available Scripts
+<div align="center">
 
-In the project directory, you can run:
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 
-### `yarn start`
+</div>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<p align="center"> Few lines describing your project.
+    <br> 
+</p>
 
-### `yarn test`
+## 📝 Sumário
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Problema](#problem_statement)
+- [Ideia / Solução](#idea)
+- [Roadmap](#future_scope)
+- [Stacks](#tech_stack)
+- [Time 7](#authors)
 
-### `yarn build`
+## 🧐 Problema <a name = "problem_statement"></a>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Com uma das maiores frotas de caminhões do mundo o Brasil se movimenta pelas estradas e rodovias, **carregando praticamente tudo, e mesmo em tempos de pandemia essa circulação não pode parar.** As estradas e seus caminhoneiros possuem uma rotina pouco conhecida, por isso a CCR quer colocar o assunto em pauta, e encontrar soluções que possam **melhorar a qualidade de vida do caminhoneiro.** Olhando, principalmente, para saúde física e mental, situação econômica e social desses profissionais. **A rotina da forma como acontece hoje requer atenção, pois em diversos aspectos é pouco salubre e arriscada.** Destaca-se que o risco não é só para eles, mas para toda sociedade.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## 🧐 Ideia/Solução <a name = "idea"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Segurança**
+    - Botão de emergência (entra em contato com um suporte e / ou número de confiança que o usuário cadastre);
+    - Suporte diferenciado para gênero feminino, com opções de assédio sexual, tentativa de estupro ou coagida de alguma maneira.
+    - Avisar se o motorista está acima da velocidade permitida.
 
-### `yarn eject`
+- **Saúde**
+    - Alarme para beber água;
+    - exercícios laborais;
+    - Avisos sobre restaurantes próximos de horários de refeições / Opção de comentários sobre bares/restaurantes de outros usuários;
+    - Avisos para dormir e apresentar lugares próximos/ Opção de comentários sobre bares/restaurantes de outros usuários;
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- **Entretenimento**
+    - notícias/revista diárias sobre rotinas de caminhoneiros, carros, política, economia etc. (você pode selecionar seus interesses)
+        - Ex.: [Trucão](https://trucao.com.br/) - Espaço para notícias/audio/etc.  (aqui poderia ter anúncios de patrocinadores)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Comunicação**
+    - Opção para conversar com outros caminhoneiros através de voz ( poderá ser ativado ou não) para se manter acordado ou para tirar dúvidas em relação ao trânsito.
+    - Notificações para o usuário conversar com alguém próximo ( ele pode setar nome e familiaridade).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🚀 Roadmap <a name = "future_scope"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+PLUS (ROADMAP)
 
-## Learn More
+- Integração com pulseiras/relógio inteligentes que possam apresentar batimentos cardíacos, se está acordado/dormindo, saturação de Oxigênio, Pressão, etc.
+- Acesso a nutricionistas, médicos, etc.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+PLUS (ROADMAP)
 
-### Code Splitting
+- Caso o caminhão tenha rastreio a empresa seja sinalizada se o motorista sair da rota.
+- Se autônomo ele pode permitir que alguém seja sinalizado caso ele saia de rota.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## ⛏️ Stacks <a name = "tech_stack"></a>
 
-### Analyzing the Bundle Size
+- [React.js](https://www.reactjs.org) - Front-End
+- [Figma](https://www.figma.com) - Protótipo funcional
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+## ✍️ Time 7 <a name = "authors"></a>
 
-### Making a Progressive Web App
+- [@esau-morais](https://github.com/esau-morais) - Dev
+- [@luis-seda](https://linkedin.com/in/luis-seda-instructor-vfxcompositor) - Motion Designer
+- [@ayrton-renan](https://www.linkedin.com/in/ayrtonrenan/) - Designer/UX
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## 🎉 Agradecimentos <a name = "acknowledgments"></a>
 
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- Shawee
+  - Equipe de suporte da Shawee
+- Grupo CCR
