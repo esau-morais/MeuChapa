@@ -11,7 +11,7 @@ const SctTwo = (props) => {
             <Col md={{ span: 5, offset: 0 }}>
               <Desc3>
               Agora <Highlight>você pode ter mais segurança</Highlight> e 
-              <Highlight>qualidade de vida</Highlight> ao 
+              <Highlight> qualidade de vida</Highlight> ao 
               viajar por todo o Brasil.
               </Desc3>
             </Col>
